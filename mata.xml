@@ -1,6 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <manifest>
-	<project path="vendor/essential" name="TheMuppets/proprietary_vendor_essential" />
 	<project path="device/essential/mata" name="invisiblek/android_device_essential_mata" />
 	<project path="device/essential/mata/data-ipa-cfg-mgr" name="invisiblek/android_device_essential_mata_data-ipa-cfg-mgr" />
 	<project path="device/essential/mata/gps" name="invisiblek/android_device_essential_mata_gps" />
