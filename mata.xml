@@ -1,16 +1,16 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <manifest>
-	<project path="vendor/essential" name="TheMuppets/proprietary_vendor_essential" revision="cm-14.1" />
-	<project path="device/essential/mata" name="invisiblek/android_device_essential_mata" revision="cm-14.1" />
-	<project path="device/essential/mata/data-ipa-cfg-mgr" name="invisiblek/android_device_essential_mata_data-ipa-cfg-mgr" revision="cm-14.1" />
-	<project path="device/essential/mata/gps" name="invisiblek/android_device_essential_mata_gps" revision="cm-14.1" />
-	<project path="kernel/essential/msm8998" name="invisiblek/android_kernel_essential_msm8998" revision="cm-14.1" />
-	<project path="kernel/essential/msm8998/drivers/staging/qcacld-3.0" name="invisiblek/android_kernel_essential_msm8998_drivers_staging_qcacld-3.0" revision="cm-14.1" />
-	<project path="kernel/essential/msm8998/drivers/staging/fw-api" name="invisiblek/android_kernel_essential_msm8998_drivers_staging_fw-api" revision="cm-14.1" />
-	<project path="kernel/essential/msm8998/drivers/staging/qca-wifi-host-cmn" name="invisiblek/android_kernel_essential_msm8998_drivers_staging_qca-wifi-host-cmn" revision="cm-14.1" />
-	<project path="vendor/qcom/opensource/location" name="LineageOS/android_vendor_qcom_opensource_location" revision="cm-14.1" />
-	<project path="vendor/nxp-nfc/opensource/frameworks" name="LineageOS/android_vendor_nxp-nfc_opensource_frameworks" revision="cm-14.1" />
-	<project path="vendor/nxp-nfc/opensource/libnfc-nci" name="LineageOS/android_vendor_nxp-nfc_opensource_libnfc-nci" revision="cm-14.1" />
-	<project path="vendor/nxp-nfc/opensource/Nfc" name="LineageOS/android_vendor_nxp-nfc_opensource_Nfc" revision="cm-14.1" />
-	<project path="device/qcom/common" name="LineageOS/android_device_qcom_common" revision="cm-14.1" />
+	<project path="vendor/essential" name="TheMuppets/proprietary_vendor_essential" />
+	<project path="device/essential/mata" name="invisiblek/android_device_essential_mata" />
+	<project path="device/essential/mata/data-ipa-cfg-mgr" name="invisiblek/android_device_essential_mata_data-ipa-cfg-mgr" />
+	<project path="device/essential/mata/gps" name="invisiblek/android_device_essential_mata_gps" />
+	<project path="kernel/essential/msm8998" name="invisiblek/android_kernel_essential_msm8998" />
+	<project path="kernel/essential/msm8998/drivers/staging/qcacld-3.0" name="invisiblek/android_kernel_essential_msm8998_drivers_staging_qcacld-3.0" />
+	<project path="kernel/essential/msm8998/drivers/staging/fw-api" name="invisiblek/android_kernel_essential_msm8998_drivers_staging_fw-api" />
+	<project path="kernel/essential/msm8998/drivers/staging/qca-wifi-host-cmn" name="invisiblek/android_kernel_essential_msm8998_drivers_staging_qca-wifi-host-cmn" />
+	<project path="vendor/qcom/opensource/location" name="LineageOS/android_vendor_qcom_opensource_location" />
+	<project path="vendor/nxp-nfc/opensource/frameworks" name="LineageOS/android_vendor_nxp-nfc_opensource_frameworks" />
+	<project path="vendor/nxp-nfc/opensource/libnfc-nci" name="LineageOS/android_vendor_nxp-nfc_opensource_libnfc-nci" />
+	<project path="vendor/nxp-nfc/opensource/Nfc" name="LineageOS/android_vendor_nxp-nfc_opensource_Nfc" />
+	<project path="device/qcom/common" name="LineageOS/android_device_qcom_common" />
 </manifest>
