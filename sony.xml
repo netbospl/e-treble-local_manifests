@@ -1,0 +1,91 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<manifest>
+<remote name="sony" fetch="https://github.com/sonyxperiadev/" />
+
+<!-- Fetch Sony 4.4 and 4.9 kernel, camera too -->
+
+<project path="kernel/sony/msm-4.4/common-headers" name="device-sony-common-headers" groups="device" remote="sony" revision="aosp/LA.UM.6.4.r1" />
+<project path="kernel/sony/msm-4.4/common-kernel" name="vendor-sony-kernel" groups="device" remote="sony" revision="aosp/LA.UM.6.4.r1" clone-depth="1"/>
+<project path="kernel/sony/msm-4.4/kernel" name="kernel" groups="device" remote="sony" revision="aosp/LA.UM.6.4.r1" />
+<project path="kernel/sony/msm-4.4/kernel/drivers/staging/wlan-qc/fw-api" name="vendor-qcom-opensource-wlan-fw-api" groups="device" remote="sony" revision="aosp/LA.UM.6.4.r1" />
+<project path="kernel/sony/msm-4.4/kernel/drivers/staging/wlan-qc/qca-wifi-host-cmn" name="vendor-qcom-opensource-wlan-qca-wifi-host-cmn" groups="device" remote="sony" revision="aosp/LA.UM.6.4.r1" />
+<project path="kernel/sony/msm-4.4/kernel/drivers/staging/wlan-qc/qcacld-3.0" name="vendor-qcom-opensource-wlan-qcacld-3.0" groups="device" remote="sony" revision="aosp/LA.UM.6.4.r1" />
+<project path="vendor/qcom/opensource/camera" name="camera" groups="device" remote="sony" revision="aosp/LA.UM.6.4.r1" />
+
+<project path="kernel/sony/msm-4.9/common-headers" name="device-sony-common-headers" groups="device" remote="sony" revision="aosp/LE.UM.2.3.2.r1.4" />
+<project path="kernel/sony/msm-4.9/common-kernel" name="vendor-sony-kernel" groups="device" remote="sony" revision="aosp/LE.UM.2.3.2.r1.4" clone-depth="1"/>
+<project path="kernel/sony/msm-4.9/kernel" name="kernel" groups="device" remote="sony" revision="aosp/LE.UM.2.3.2.r1.4" />
+<project path="kernel/sony/msm-4.9/kernel/drivers/staging/wlan-qc/fw-api" name="vendor-qcom-opensource-wlan-fw-api" groups="device" remote="sony" revision="aosp/LE.UM.2.3.2.r1.4" />
+<project path="kernel/sony/msm-4.9/kernel/drivers/staging/wlan-qc/qca-wifi-host-cmn" name="vendor-qcom-opensource-wlan-qca-wifi-host-cmn" groups="device" remote="sony" revision="aosp/LE.UM.2.3.2.r1.4" />
+<project path="kernel/sony/msm-4.9/kernel/drivers/staging/wlan-qc/qcacld-3.0" name="vendor-qcom-opensource-wlan-qcacld-3.0" groups="device" remote="sony" revision="aosp/LE.UM.2.3.2.r1.4" />
+
+<!-- Broadcom repos for Loire and Tone Platform -->
+<project path="vendor/broadcom/bt-fm" name="vendor-broadcom-bt-fm" groups="device" remote="sony" revision="master" />
+<project path="vendor/broadcom/wlan" name="vendor-broadcom-wlan" groups="device" remote="sony" revision="master" />
+
+<!-- Devices trees -->
+
+<project path="device/sony/sepolicy" name="device-sony-sepolicy" groups="device" remote="sony" revision="o-mr1" />
+<project path="device/sony/common" name="device-sony-common" groups="device" remote="sony" revision="o-mr1" />
+
+<!--msm8956-->
+<project path="device/sony/loire" name="device-sony-loire" groups="device" remote="sony" revision="o-mr1" />
+<project path="device/sony/blanc" name="device-sony-blanc" groups="device" remote="sony" revision="o-mr1" />
+<project path="device/sony/kugo" name="device-sony-kugo" groups="device" remote="sony" revision="o-mr1" />
+<project path="device/sony/suzu" name="device-sony-suzu" groups="device" remote="sony" revision="o-mr1" />
+
+<!--sdm630-->
+<project path="device/sony/nile" name="device-sony-nile" groups="device" remote="sony" revision="o-mr1" />
+<project path="device/sony/discovery" name="device-sony-discovery" groups="device" remote="sony" revision="o-mr1" />
+<project path="device/sony/pioneer" name="device-sony-pioneer" groups="device" remote="sony" revision="o-mr1" />
+
+<!--msm8996-->
+<project path="device/sony/tone" name="device-sony-tone" groups="device" remote="sony" revision="o-mr1" />
+<project path="device/sony/dora" name="device-sony-dora" groups="device" remote="sony" revision="o-mr1" />
+<project path="device/sony/kagura" name="device-sony-kagura" groups="device" remote="sony" revision="o-mr1" />
+<project path="device/sony/keyaki" name="device-sony-keyaki" groups="device" remote="sony" revision="o-mr1" />
+
+<!--msm8998-->
+<project path="device/sony/yoshino" name="device-sony-yoshino" groups="device" remote="sony" revision="o-mr1" />
+<project path="device/sony/lilac" name="device-sony-lilac" groups="device" remote="sony" revision="o-mr1" />
+<project path="device/sony/maple" name="device-sony-maple" groups="device" remote="sony" revision="o-mr1" />
+<project path="device/sony/poplar" name="device-sony-poplar" groups="device" remote="sony" revision="o-mr1" />
+
+<!--sdm845-->
+<project path="device/sony/tama" name="device-sony-tama" groups="device" remote="sony" revision="o-mr1" />
+<project path="device/sony/akari" name="device-sony-akari" groups="device" remote="sony" revision="o-mr1" />
+<project path="device/sony/apollo" name="device-sony-apollo" groups="device" remote="sony" revision="o-mr1" />
+
+<!-- NFC repo -->
+
+<remote name="NXP" fetch="https://github.com/NXPNFCProject/" />
+<project path="vendor/nxp/" name="vendor-nxp" groups="device" remote="sony" revision="master" />
+<project path="vendor/nxp/NXPNFCC_FW" name="NXPNFCC_FW" groups="device" remote="NXP" revision="master" />
+
+<!-- Sony OSS projects -->
+
+<project path="vendor/qcom/opensource/dataservices" name="vendor-qcom-opensource-dataservices" groups="device" remote="sony" revision="master" />
+<project path="vendor/qcom/opensource/interfaces" name="vendor-qcom-opensource-interfaces" groups="device" remote="sony" revision="aosp/LA.UM.6.3.r1" >
+  <copyfile dest="vendor/qcom/opensource/Android.bp" src="os_pickup.bp" />
+</project>
+<project path="vendor/qcom/opensource/fm" name="vendor-qcom-opensource-fm" groups="device" remote="sony" revision="master" />
+<project path="vendor/qcom/opensource/location" name="vendor-qcom-opensource-location" groups="device" remote="sony" revision="o-mr1" />
+<project path="vendor/qcom/opensource/wlan" name="hardware-qcom-wlan" groups="device" remote="sony" revision="master" />
+<project path="vendor/oss/cash"  name="vendor-sony-oss-cash" groups="device" remote="sony" revision="master" />
+<project path="vendor/oss/fingerprint"  name="vendor-sony-oss-fingerprint" groups="device" remote="sony" revision="master" />
+<project path="vendor/oss/macaddrsetup" name="macaddrsetup" groups="device" remote="sony" revision="master" />
+<project path="vendor/oss/projection" name="vendor-sony-oss-projection" groups="device" remote="sony" revision="master" />
+<project path="vendor/oss/release-keys" name="release-keys" groups="device" remote="sony" revision="master" />
+<project path="vendor/oss/thermanager" name="thermanager" groups="device" remote="sony" revision="master" />
+<project path="vendor/oss/timekeep" name="timekeep" groups="device" remote="sony" revision="master" />
+<project path="vendor/oss/transpower" name="transpower" groups="device" remote="sony" revision="master" />
+<project path="packages/apps/ExtendedSettings" name="packages_apps_ExtendedSettings" groups="device" remote="sony" revision="master" />
+<project path="vendor/oss/repo_update" name="repo_update" groups="device" remote="sony" revision="android-8.1.0_r3">
+    <linkfile src="repo_update.sh" dest="repo_update.sh" />
+</project>
+
+<!-- Qualcomm display HAL for SDE driver -->
+
+<project path="hardware/qcom/display/sde" name="hardware-qcom-display" groups="device" remote="sony" revision="aosp/LA.UM.6.3.r1" />
+
+</manifest>
