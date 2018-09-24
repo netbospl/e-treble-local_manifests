@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<manifest>
+<project path="device/lge/hammerhead" name="franciscofranco/hammerhead" />
+<project path="kernel/lge/msm8974" name="franciscofranco/kernel_essential_msm8998_drivers_staging_qca-wifi-host-cmn" />
+<project name="LineageOS/android_device_qcom_common" path="device/qcom/common" remote="github" />
+<project path="vendor/lge/hammerhead" name="LineageOS/vendor_lge_hammerhead" />
+</manifest>
