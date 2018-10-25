@@ -3,7 +3,6 @@
     <remove-project name="LineageOS/android_device_samsung_galaxys2-common" />
     
 <!-- Device trees forked by LineageOS -->
-    <project name="LineageOS/android_device_samsung_i9100" path="device/samsung/i9100" remote="github" revision="cm-14.1" />
     <project name="getawaycar/e/nougat/eelo_device_samsung_galaxys2-common" path="device/samsung/galaxys2-common" remote="gitlab" revision="eelo-0.1" />
 
 <!-- Official LineageOS repositories -->
