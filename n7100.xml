@@ -6,6 +6,4 @@
   <project name="makorn645/android_hardware_samsung" path="hardware/samsung" remote="github" revision="n7.1" />
   <project name="LineageOS/android_packages_apps_SamsungServiceMode" path="packages/apps/SamsungServiceMode" remote="github" revision="cm-14.1" />
   <project name="makorn645/proprietary_vendor_samsung" path="vendor/samsung" remote="github" revision="n7.1" />
-  <remove-project name="platform/external/apache-http"/>
-  <project path="external/apache-http" name="LineageOS/android_external_apache-http" groups="pdk" remote="github" revision="cm-14.1" />
 </manifest>
