@@ -1,5 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <manifest>
+    <remove-project name="LineageOS/android_device_samsung_n7100" />
+    <remove-project name="LineageOS/android_device_samsung_smdk4412-common" />
+    <remove-project name="LineageOS/android_kernel_samsung_smdk4412" />
   <project name="makorn645/android_device_samsung_n7100" path="device/samsung/n7100" remote="github" revision="cm-14.1" />
   <project name="makorn645/android_device_samsung_smdk4412-common" path="device/samsung/smdk4412-common" remote="github" revision="n7.1" />
   <project name="marc0601/stable_android_kernel_samsung_smdk4412" path="kernel/samsung/smdk4412" remote="github" revision="cm-14.1" />
