@@ -8,4 +8,3 @@
   <project name="LineageOS/android_external_stlport" path="external/stlport" remote="github" revision="cm-14.1" />
   <project name="makorn645/proprietary_vendor_samsung" path="vendor/samsung" remote="github" revision="n7.1" />
 </manifest>
->
