@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <manifest>
 
-  <project name="rINanDO/android_hardware_samsung" path="hardware/samsung" remote="github" revision="lineage-15.1" /> 
+  <project name="ComicoTeam/android_hardware_samsung" path="hardware/samsung" remote="github" revision="lineage-15.1" /> 
   <project name="ComicoTeam/android_device_samsung_n7100" path="device/samsung/n7100" remote="github" revision="lineage-15.1" />
   <project name="CustomROMs/android_device_samsung_smdk4412-common" path="device/samsung/smdk4412-common" remote="github" revision="lineage-15.1" />
   <project name="marc0601/android_kernel_samsung_smdk4412" path="kernel/samsung/smdk4412" remote="github" revision="lineage-15.1-hwc-rebase" />
