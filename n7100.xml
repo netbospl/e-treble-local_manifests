@@ -2,7 +2,7 @@
 <manifest>
 
   <project name="ComicoTeam/android_hardware_samsung" path="hardware/samsung" remote="github" revision="lineage-15.1" /> 
-  <project name="ComicoTeam/android_device_samsung_n7100" path="device/samsung/n7100" remote="github" revision="lineage-15.1" />
+  <project name="marc0601/android_device_samsung_n7100" path="device/samsung/n7100" remote="github" revision="lineage-15.1" />
   <project name="CustomROMs/android_device_samsung_smdk4412-common" path="device/samsung/smdk4412-common" remote="github" revision="lineage-15.1" />
   <project name="marc0601/stable_android_kernel_samsung_smdk4412" path="kernel/samsung/smdk4412" remote="github" revision="boeffla14" />
   <project name="makorn645/proprietary_vendor_samsung" path="vendor/samsung" remote="github" revision="n7.1" />  
