@@ -1,11 +1,51 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <manifest>
+  <remote  name="omnirom"
+           review="gerrit.omnirom.org"
+           fetch="https://github.com/omnirom" />
 
-  <project name="ComicoTeam/android_hardware_samsung" path="hardware/samsung" remote="github" revision="lineage-15.1" /> 
-  <project name="marc0601/android_device_samsung_n7100" path="device/samsung/n7100" remote="github" revision="lineage-15.1" />
-  <project name="CustomROMs/android_device_samsung_smdk4412-common" path="device/samsung/smdk4412-common" remote="github" revision="lineage-15.1" />
-  <project name="ChronoMonochrome/android_kernel_samsung_smdk4412" path="kernel/samsung/smdk4412" remote="github" revision="n7100-3.4" />
-  <project name="makorn645/proprietary_vendor_samsung" path="vendor/samsung" remote="github" revision="n7.1" />  
-  <project name="LineageOS/android_packages_apps_SamsungServiceMode" path="packages/apps/SamsungServiceMode" remote="github" revision="cm-14.1" />
-  <project name="LineageOS/android_external_stlport" path="external/stlport" remote="github" revision="lineage-15.1" />
+  <remote  name="bb"
+           fetch="https://bitbucket.org/" />
+
+  <remote  name="substratum"
+           fetch="https://github.com/"
+           review="http://substratum.review" />
+
+  <!--remove -->
+  <remove-project path="bootable/recovery" name="CustomROMs/android_bootable_recovery" groups="pdk" />
+  <!-- omnirom -->
+  <project path="bootable/recovery" name="CustomROMs/android_bootable_recovery" revision="lineage-15.1" groups="pdk-cw-fs" />
+
+  <!-- omnirom -->
+ <project path="external/busybox" name="CustomROMs/android_external_busybox" revision="android-8.1" />
+ <project path="system/extras/su" name="rINanDO/android_system_extras_su" revision="lineage-15.1" />
+
+  <!-- START of CyanogenMod
+  <project path="external/busybox" name="CustomROMs/android_external_busybox" remote="github" revision="cm-14.1" />
+  <project path="external/stlport" name="CustomROMs/android_external_stlport" remote="github" revision="lineage-15.0" /> -->
+
+  <!-- arm toolchains -->
+  <project path="prebuilts/gcc/linux-x86/arm/arm-eabi-4.9-linaro" name="UBERTC/arm-eabi-4.9" remote="bb" revision="master" />
+  <project path="prebuilts/gcc/linux-x86/arm/arm-linux-androideabi-4.9-linaro" name="UBERTC/arm-linux-androideabi-4.9" remote="bb" revision="master" />
+
+  <!-- Snap
+  <remove-project path="packages/apps/Snap" name="CustomROMs/android_packages_apps_Snap" />
+  <project path="packages/apps/Snap" name="CustomROMs/android_packages_apps_Snap" remote="github" revision="cm-14.1-old" /> -->
+
+  <!-- CyanogenMod
+  <project path="packages/apps/SoundRecorder" name="CustomROMs/android_packages_apps_SoundRecorder" remote="github" revision="cm-14.1" />
+  <project path="packages/apps/CMFileManager" name="CustomROMs/android_packages_apps_CMFileManager" remote="github" revision="cm-14.1" /> -->
+
+  <!-- arter97 -->
+  <remove-project path="external/jemalloc" name="platform/external/jemalloc" groups="pdk" remote="aosp" />
+  <project path="external/jemalloc" name="arter97/android_external_jemalloc" remote="github" revision="oreo-mr1" />
+
+  <!--MusicFX -->
+  <!--<project path="packages/apps/MusicFX" name="CustomROMs/android_packages_apps_MusicFX" revision="lineage-15.1" />-->
+
+  <project path="hardware/samsung" name="CustomROMs/android_hardware_samsung" revision="lineage-15.1-i9300" />
+  <project path="kernel/samsung/smdk4412" name="pascua28/Elite-Boeffla-Kernel" revision="lineageos-15.1" />
+  <project path="device/samsung/smdk4412-common" name="CustomROMs/android_device_samsung_smdk4412-common" revision="lineage-15.1" />
+  <project path="device/samsung/n7100" name="ComicoTeam/android_device_samsung_n7100" revision="lineage-15.1" />
+  <project path="vendor/samsung" name="ComicoTeam/proprietary_vendor_samsung_n7100" revision="o" />
 </manifest>
