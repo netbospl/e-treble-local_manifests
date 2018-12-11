@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<manifest>
+
+    <project name="berkeley-dev/android_device_huawei_kirin970-common" path="device/huawei/kirin970-common" />
+    <project name="berkeley-dev/android_device_huawei_berkeley" path="device/huawei/berkeley" />
+    <project name="berkeley-dev/android_kernel_huawei_kirin970" path="kernel/huawei/kirin970" />
+    <project name="berkeley-dev/proprietary_vendor_huawei_kirin970-common" path="vendor/huawei/kirin970" />
+
+</manifest>
