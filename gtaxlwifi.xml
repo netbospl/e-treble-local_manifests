@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<manifest>
+	<project path="device/samsung/gtaxlwifi" name="Valera1978/android_device_samsung_gtaxlwifi" />
+  <project path="hardware/samsung" name="LineageOS/android_hardware_samsung" />
+  <project path="hardware/samsung_slsi-cm/exynos" name="Valera1978/android_hardware_samsung_slsi-cm_exynos" />
+  <project path="hardware/samsung_slsi-cm/exynos5" name="LineageOS/android_hardware_samsung_slsi-cm_exynos5" />
+  <project path="hardware/samsung_slsi-cm/openmax" name="LineageOS/android_hardware_samsung_slsi-cm_openmax" />
+  <project path="hardware/samsung_slsi-cm/exynos7870" name="Valera1978/android_hardware_samsung_slsi-cm_exynos7870" />
+	<project path="kernel/samsung/exynos7870" name="cschsz/android_kernel_samsung_exynos7870" />
+	<project path="vendor/samsung/gtaxlwifi" name="Valera1978/android_vendor_samsung_gtaxlwifi" />
+</manifest>
