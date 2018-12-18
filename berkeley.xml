@@ -4,6 +4,6 @@
     <project name="berkeley-dev/android_device_huawei_kirin970-common" path="device/huawei/kirin970-common" />
     <project name="berkeley-dev/android_device_huawei_berkeley" path="device/huawei/berkeley" />
     <project name="a18532086/android_kernel_huawei_Berkeley_kirin970" path="kernel/huawei/kirin970" revision="master" />
-    <project name="berkeley-dev/proprietary_vendor_huawei_kirin970-common" path="vendor/huawei/kirin970" />
+    <project name="berkeley-dev/proprietary_vendor_huawei_kirin970-common" path="vendor/huawei/kirin970-common" />
 
 </manifest>
