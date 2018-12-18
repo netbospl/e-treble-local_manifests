@@ -1,13 +1,13 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <manifest>
   <project path="device/essential/mata" name="LineageOS/android_device_essential_mata" />
-  <project path="device/essential/mata/data-ipa-cfg-mgr" name="invisiblek/android_device_essential_mata_data-ipa-cfg-mgr" />
-  <project path="device/essential/mata/gps" name="invisiblek/android_device_essential_mata_gps" />
+  <project path="device/essential/mata/data-ipa-cfg-mgr" name="e/devices/essential/mata/android_device_essential_mata_data-ipa-cfg-mgr" remote="e" revision="cm-14.1" />
+  <project path="device/essential/mata/gps" name="e/devices/essential/mata/android_device_essential_mata_gps" remote="e" revision="cm-14.1" />
   <project path="kernel/essential/msm8998" name="LineageOS/android_kernel_essential_msm8998" />
-  <project path="kernel/essential/msm8998/drivers/staging/fw-api" name="invisiblek/android_kernel_essential_msm8998_drivers_staging_fw-api" />
-  <project path="kernel/essential/msm8998/drivers/staging/qca-wifi-host-cmn" name="invisiblek/android_kernel_essential_msm8998_drivers_staging_qca-wifi-host-cmn" />
-  <project path="kernel/essential/msm8998/drivers/staging/qcacld-3.0" name="invisiblek/android_kernel_essential_msm8998_drivers_staging_qcacld-3.0" />
-  <project path="vendor/qcom/opensource/fst-manager" name="invisiblek/android_vendor_qcom_opensource_fst-manager" />
+  <project path="kernel/essential/msm8998/drivers/staging/fw-api" name="e/devices/essential/mata/android_kernel_essential_msm8998_drivers_staging_fw-api" remote="e" revision="cm-14.1" />
+  <project path="kernel/essential/msm8998/drivers/staging/qca-wifi-host-cmn" name="e/devices/essential/mata/android_kernel_essential_msm8998_drivers_staging_qca-wifi-host-cmn" remote="e" revision="cm-14.1" />
+  <project path="kernel/essential/msm8998/drivers/staging/qcacld-3.0" name="e/devices/essential/mata/android_kernel_essential_msm8998_drivers_staging_qcacld-3.0" remote="e" revision="cm-14.1" />
+  <project path="vendor/qcom/opensource/fst-manager" name="e/devices/essential/mata/android_vendor_qcom_opensource_fst-manager" remote="e" revision="cm-14.1" />
   <project path="vendor/qcom/opensource/location" name="LineageOS/android_vendor_qcom_opensource_location" />
   <project path="vendor/nxp-nfc/opensource/frameworks" name="LineageOS/android_vendor_nxp-nfc_opensource_frameworks" />
   <project path="vendor/nxp-nfc/opensource/libnfc-nci" name="LineageOS/android_vendor_nxp-nfc_opensource_libnfc-nci" />
