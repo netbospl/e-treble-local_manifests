@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<manifest>
+  <project path="device/samsung/zenlte" name="KeTuRr74/android_device_samsung_zenltexx" revision="master" />
+  <project path="device/samsung/zenlte-common" name="KeTuRr74/android_device_samsung_zenlte-common" revision="master" />
+  <project path="hardware/samsung" name="LineageOS/android_hardware_samsung" />
+  <project path="hardware/samsung_slsi-cm/exynos" name="LineageOS/android_hardware_samsung_slsi-cm_exynos" />
+  <project path="hardware/samsung_slsi-cm/exynos5" name="LineageOS/android_hardware_samsung_slsi-cm_exynos5" />
+  <project path="hardware/samsung_slsi-cm/exynos7420" name="LineageOS/android_hardware_samsung_slsi-cm_exynos7420" />
+  <project path="hardware/samsung_slsi-cm/openmax" name="LineageOS/android_hardware_samsung_slsi-cm_openmax" />
+  <project path="kernel/samsung/zenlte" name="KeTuRr74/android_kernel_samsung_zenlte" revision="master" />
+  <project path="packages/apps/FlipFlap" name="LineageOS/android_packages_apps_FlipFlap" />
+  <project path="vendor/samsung/zenlte" name="KeTuRr74/android_samsung_vendor_zenlte-common" revision="master" />
+</manifest>
