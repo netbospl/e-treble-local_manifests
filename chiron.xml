@@ -1,5 +1,4 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <manifest>
-  <project path="vendor/xiaomi/chiron" name="RR-oreo-chiron/vendor_xiaomi_chiron" revision="rr-8.1" />
-  <project path="vendor/xiaomi/msm8998-common" name="RR-oreo-chiron/device_xiaomi_msm8998-common" revision="rr-8.1-commonized" />
+  <project path="vendor/xiaomi" name="e/devices/xiaomi/proprietary_vendor_xiaomi" revision="v1-oreo" remote="e"/>
 </manifest>
