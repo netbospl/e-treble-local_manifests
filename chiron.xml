@@ -1,4 +1,4 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <manifest>
-  <project path="vendor/xiaomi" name="e/devices/xiaomi/proprietary_vendor_xiaomi" revision="v1-oreo" remote="e"/>
+  <project path="vendor/xiaomi" name="HrX03/vendor_xiaomi" revision="pie" />
 </manifest>
