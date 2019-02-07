@@ -1,4 +1,4 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <manifest>
-  <project path="vendor/xiaomi" name="HrX03/vendor_xiaomi" revision="pie" />
+  <project path="vendor/xiaomi" name="Hacker432/android_vendor_xiaomi_chiron_msm8998" revision="master" />
 </manifest>
