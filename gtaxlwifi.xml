@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <manifest>
-	<project path="device/samsung/gtaxlwifi" name="Valera1978/android_device_samsung_gtaxlwifi" />
+	<project path="device/samsung/gtaxlwifi" name="e/devices/samsung/gtaxlwifi/android_device_samsung_gtaxlwifi" remote="e" />
   <project path="hardware/samsung" name="LineageOS/android_hardware_samsung" />
   <project path="hardware/samsung_slsi-cm/exynos" name="Valera1978/android_hardware_samsung_slsi-cm_exynos" />
   <project path="hardware/samsung_slsi-cm/exynos5" name="LineageOS/android_hardware_samsung_slsi-cm_exynos5" />
