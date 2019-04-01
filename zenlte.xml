@@ -1,12 +1,13 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <manifest>
   <project name="e/devices/samsung/zenlte/android_device_samsung_zenlte" path="device/samsung/zenlte" remote="e" revision="master" />
-  <project name="e/devices/samsung/zenlte/android_kernel_samsung_zenlte" path="kernel/samsung/zenlte" remote="e" />
+  <!--<project name="e/devices/samsung/zenlte/android_kernel_samsung_zenlte" path="kernel/samsung/zenlte" remote="e" />-->
   <project name="e/devices/samsung/zenlte/proprietary_vendor_samsung_zenlte" path="vendor/samsung/zenlte" remote="e" revision="master" />
 
   <project name="rhunault/proprietary_vendor_zero-common" path="vendor/samsung/zero-common" remote="e" />
 
   <project name="LineageOS/android_device_samsung_zero-common" path="device/samsung/zero-common" remote="github" />
+  <project name="LineageOS/android_kernel_samsung_exynos7420" path="kernel/samsung/exynos7420" remote="github" />
   <project name="LineageOS/android_hardware_samsung" path="hardware/samsung" remote="github" />
   <project name="LineageOS/android_hardware_samsung_slsi-cm_exynos" path="hardware/samsung_slsi-cm/exynos" remote="github" />
   <project name="LineageOS/android_hardware_samsung_slsi-cm_exynos5" path="hardware/samsung_slsi-cm/exynos5" remote="github" />
