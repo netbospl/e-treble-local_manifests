@@ -1,6 +1,0 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<manifest>
-  <project name="e/devices/samsung/zenlte/android_device_samsung_zenlte" path="device/samsung/zenlte" remote="e" />
-  <project name="e/devices/samsung/zenlte/android_kernel_samsung_zenlte" path="kernel/samsung/zenlte" remote="e" />
-  <project name="e/devices/samsung/zenlte/android_vendor_samsung_zenlte" path="vendor/samsung/zenlte" remote="e" />
-</manifest>
