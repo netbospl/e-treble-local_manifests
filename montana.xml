@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<manifest>
+  <project name="e/devices/motorola/montana/android_device_motorola_montana" path="device/motorola/montana" remote="e" />
+  <project name="e/devices/motorola/montana/android_kernel_motorola_msm8937" path="kernel/motorola/msm8937" remote="e" />
+  <project name="e/devices/motorola/proprietary_vendor_motorola_montana" path="vendor/motorola/montana" remote="e" />
+  <project name="LineageOS/android_packages_resources_devicesettings" path="packages/resources/devicesettings" remote="github" />
+</manifest>
