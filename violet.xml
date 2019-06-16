@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no" ?>
+<manifest>
+	<project path="kernel/xiaomi/sm6150" name="muppathimoonu/devices/xiaomi/violet/android_kernel_xiaomi_sm6150" remote="e" />
+	<project path="vendor/xiaomi/" name="muppathimoonu/devices/xiaomi/violet/android_vendor_xiaomi" remote="e" />
+	<project path="device/xiaomi/violet" name="muppathimoonu/devices/xiaomi/violet/device_xiaomi_violet" remote="e" />
+</manifest>
