@@ -2,5 +2,5 @@
 <manifest>
 	<project path="kernel/xiaomi/sm6150" name="e/devices/xiaomi/violet/android_kernel_xiaomi_sm6150" remote="e" />
 	<project path="vendor/xiaomi/" name="e/devices/xiaomi/violet/android_vendor_xiaomi_violet" remote="e" />
-	<project path="device/xiaomi/violet" name="muppathimoonu/device_xiaomi_violet" remote="e" />
+	<project path="device/xiaomi/violet" name="e/devices/xiaomi/violetmuppathimoonu/device_xiaomi_violet" remote="e" />
 </manifest>
