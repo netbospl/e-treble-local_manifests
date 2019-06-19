@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no" ?>
 <manifest>
     <remove-project name="e/os/android_vendor_lineage"/>
+    <project path="device/xiaomi/violet" name="e/devices/xiaomi/violet/android_device_xiaomi_violet" remote="e" revision="v1-pie" />
+    <project path="kernel/xiaomi/sm6150" name="e/devices/xiaomi/violet/android_kernel_xiaomi_sm6150" remote="e" revision="v1-pie" />
     <project path="vendor/lineage" name="muppathimoonu/android_vendor_lineage" remote="e" revision="v1-pie" />
     <!-- <project path="kernel/xiaomi/violet" name="muppathimoonu/Xiaomi_Kernel_OpenSource" remote="e" revision="v1-pie" /> -->
-    <project path="kernel/xiaomi/sm6150" name="e/devices/xiaomi/violet/android_kernel_xiaomi_sm6150" remote="e" revision="v1-pie" /> 
 	<project path="vendor/xiaomi/violet" name="muppathimoonu/android_vendor_xiaomi_violet" remote="e" revision="v1-pie" />
-	<project path="device/xiaomi/violet" name="e/devices/xiaomi/violet/android_device_xiaomi_violet" remote="e" revision="v1-pie" />
 </manifest>
