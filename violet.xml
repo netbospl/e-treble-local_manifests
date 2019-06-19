@@ -3,6 +3,7 @@
     <remove-project name="e/os/android_vendor_lineage"/>
     <project path="vendor/lineage" name="muppathimoonu/android_vendor_lineage" remote="e" revision="lineage-16.0"/>
     <project path="device/xiaomi/violet" name="muppathimoonu/android_device_xiaomi_violet" remote="e" revision="lineage-16.0"/>
+    <project path="packages/resources/devicesettings" name="e/devices/xiaomi/violet/android_packages_resources_devicesettings" remote="e" revision="lineage-16.0"/>
     <project path="kernel/xiaomi/sm6150" name="muppathimoonu/android_kernel_xiaomi_sm6150" remote="e" revision="lineage-16.0-caf"/>
     <project path="vendor/xiaomi/violet" name="muppathimoonu/android_vendor_xiaomi_violet" remote="e" revision="lineage-16.0"/>
     <project path="prebuilts/lineage-sdk" name="e/devices/xiaomi/violet/android_prebuilts_lineage-sdk" remote="e" revision="lineage-16.0"/>
