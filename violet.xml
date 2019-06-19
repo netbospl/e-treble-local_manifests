@@ -19,6 +19,7 @@
         <linkfile src="target" dest="build/target" />
         <linkfile src="tools" dest="build/tools" />
     </project>
+    <project path="vendor/lineage" name="android_vendor_lineage" remote="github" revision="lineage-16.0"/>
     <project path="frameworks/base" name="android_frameworks_base-lineage" remote="github" revision="lineage-16.0"/>
     <project path="system/core" name="android_system_core" remote="github" revision="lineage-16.0"/>
     <project path="system/vold" name="android_system_vold" remote="github" revision="lineage-16.0"/>
@@ -28,6 +29,5 @@
     <project path="vendor/xiaomi/violet" name="android_vendor_xiaomi_violet" remote="github" revision="lineage-16.0"/>
     <project path="packages/resources/devicesettings" name="LineageOS/android_packages_resources_devicesettings" remote="lineage" revision="lineage-16.0"/>
     <project path="prebuilts/lineage-sdk" name="LineageOS/android_prebuilts_lineage-sdk" remote="lineage" revision="lineage-16.0"/>
-    <project path="vendor/lineage" name="android_vendor_lineage" remote="github" revision="lineage-16.0"/>
     <project path="hardware/qcom/power" name="android_hardware_qcom_power" remote="github" revision="lineage-16.0"/>
 </manifest>
