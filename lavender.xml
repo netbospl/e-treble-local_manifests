@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <manifest>
     <project path="device/xiaomi/lavender" name="daniml3/android_device_xiaomi_lavender" remote="github" revision="lineage-16.0"/>
-    <project path="packages/resources/devicesettings" name="e/devices/xiaomi/lavender/android_packages_resources_devicesettings" remote="e" revision="lineage-16.0"/>
+    <project path="packages/resources/devicesettings" name="e/devices/xiaomi/violet/android_packages_resources_devicesettings" remote="e" revision="lineage-16.0"/>
     <project path="kernel/xiaomi/lavender" name="daniml3/android_kernel_xiaomi_lavender" remote="github" revision="lineage-16.0-caf"/>
     <project path="vendor/xiaomi/lavender" name="daniml3/android_vendor_xiaomi_lavender" remote="github" revision="lineage-16.0"/>
 </manifest>
