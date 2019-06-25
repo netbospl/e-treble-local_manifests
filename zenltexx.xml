@@ -10,5 +10,5 @@
   <project path="kernel/samsung/zenlte" name="KeTuRr74/android_kernel_samsung_zenlte" revision="master" />
   <project path="packages/apps/FlipFlap" name="LineageOS/android_packages_apps_FlipFlap" />
   <project path="vendor/samsung/zenlte-common" name="KeTuRr74/android_samsung_vendor_zenlte-common" revision="master" />
-  <project path="vendor/samsung/zenltexx" name="e/devices/samsung/proprietary_vendor_samsung_zenltexx" revision="master" remote="e"/>
+  <project path="vendor/samsung/zenltexx" name="e/devices/samsung/proprietary_vendor_samsung_zenltexx" revision="add-zenlte-test" remote="e"/>
 </manifest>
