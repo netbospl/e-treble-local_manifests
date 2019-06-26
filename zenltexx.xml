@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <manifest>
   <project path="device/samsung/zenltexx" name="e/devices/samsung/zenltexx/android_device_samsung_zenltexx" revision="master" remote="e" />
-  <project path="device/samsung/zenlte-common" name="KeTuRr74/android_device_samsung_zenlte-common" revision="master" />
+  <project path="device/samsung/zenlte-common" name="PhieF/android_device_samsung_zenlte-common" revision="master" />
   <project path="hardware/samsung" name="LineageOS/android_hardware_samsung" />
   <project path="hardware/samsung_slsi-cm/exynos" name="LineageOS/android_hardware_samsung_slsi-cm_exynos" />
   <project path="hardware/samsung_slsi-cm/exynos5" name="LineageOS/android_hardware_samsung_slsi-cm_exynos5" />
