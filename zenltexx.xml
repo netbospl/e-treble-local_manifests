@@ -9,6 +9,7 @@
   <project path="hardware/samsung_slsi-cm/openmax" name="LineageOS/android_hardware_samsung_slsi-cm_openmax" />
   <project path="kernel/samsung/zenlte" name="PhieF/android_kernel_samsung_zenlte" revision="master" />
   <project path="packages/apps/FlipFlap" name="LineageOS/android_packages_apps_FlipFlap" />
+  <project path="packages/resources/devicesettings" name="LineageOS/android_packages_resources_devicesettings" />
   <project path="vendor/samsung/zenlte-common" name="KeTuRr74/android_samsung_vendor_zenlte-common" revision="master" />
   <project path="vendor/samsung/zenltexx" name="e/devices/samsung/proprietary_vendor_samsung_zenltexx" revision="add-zenlte-test" remote="e"/>
 </manifest>
