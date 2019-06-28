@@ -2,6 +2,6 @@
 <manifest>
     <project path="device/xiaomi/lavender" name="daniml3/android_device_xiaomi_lavender" remote="github" revision="lineage-16.0"/>
     <project path="packages/resources/devicesettings" name="e/devices/xiaomi/violet/android_packages_resources_devicesettings" remote="e" revision="lineage-16.0"/>
-    <project path="kernel/xiaomi/lavender" name="EviraKernel/EviraRdm7" remote="github" revision="master"/>
-    <project path="vendor/xiaomi/lavender" name="DarkDroidDev/proprietary_vendor_xiaomi_lavender" remote="github" revision="havoc-9.x"/>
+    <project path="kernel/xiaomi/lavender" name="iheyuhui/kernel_xiaomi_sdm660_clang" remote="github" revision="lavender-pie"/>
+    <project path="vendor/xiaomi/lavender" name="iheyuhui/vendor_xiaomi_lavender" remote="github" revision="lineage-16.0"/>
 </manifest>
