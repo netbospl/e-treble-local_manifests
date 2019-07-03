@@ -1,5 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <manifest>
+    <remove-project name="vendor/lineage" />
+    <prohect path="vendor/lineage" name="e/os/android_vendor_lineage" remote="e" revision="v1-pie-enabled-adb"/>
     <project path="device/xiaomi/violet" name="e/devices/xiaomi/violet/android_device_xiaomi_violet" remote="e" revision="lineage-16.0"/>
     <project path="packages/resources/devicesettings" name="e/devices/xiaomi/violet/android_packages_resources_devicesettings" remote="e" revision="lineage-16.0"/>
     <project path="kernel/xiaomi/sm6150" name="e/devices/xiaomi/violet/android_kernel_xiaomi_sm6150" remote="e" revision="lineage-16.0"/>
