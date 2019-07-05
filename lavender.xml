@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <manifest>
-    <project path="device/xiaomi/lavender" name="e/devices/xiaomi/lavender/android_device_xiaomi_lavender" remote="e" revision="lineage-16.0"/>
+    <project path="device/xiaomi/lavender" name="muppathimoonu/android_device_xiaomi_lavender" remote="e" revision="lineage-16.0"/>
     <project path="packages/resources/devicesettings" name="e/devices/xiaomi/violet/android_packages_resources_devicesettings" remote="e" revision="lineage-16.0"/>
-    <project path="kernel/xiaomi/lavender" name="e/devices/xiaomi/lavender/kernel_xiaomi_sdm660_clang" remote="e" revision="lavender-pie"/>
-    <project path="vendor/xiaomi/lavender" name="e/devices/xiaomi/lavender/vendor_xiaomi_lavender" remote="e" revision="lineage-16.0"/>
+    <project path="kernel/xiaomi/lavender" name="muppathimoonu/kernel_xiaomi_sdm660_clang" remote="e" revision="lavender-pie"/>
+    <project path="vendor/xiaomi/lavender" name="muppathimoonu/vendor_xiaomi_lavender" remote="e" revision="lineage-16.0"/>
 </manifest>
