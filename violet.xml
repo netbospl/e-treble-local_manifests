@@ -1,5 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <manifest>
+    <prohect path="vendor/lineage" name="e/os/android_vendor_lineage" remote="e" revision="v1-pie"/>
     <project path="device/xiaomi/violet" name="LineageOS/android_device_xiaomi_violet" remote="github" revision="lineage-16.0"/>
     <project path="packages/resources/devicesettings" name="LineageOS/android_packages_resources_devicesettings" remote="github" revision="lineage-16.0"/>
     <project path="kernel/xiaomi/sm6150" name="LineageOS/android_kernel_xiaomi_violet" remote="github" revision="lineage-16.0"/>
