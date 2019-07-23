@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<manifest>
+  <project name="resurrectionremix-hero/device_samsung_herolte" path="device/samsung/herolte" remote="github" revision="pie" />
+  <project name="resurrectionremix-hero/device_samsung_hero-common" path="device/samsung/hero-common" remote="github" revision="pie"  />
+  <project name="resurrectionremix-hero/kernel_samsung_universal8890" path="kernel/samsung/universal8890" remote="github" revision="lineage-16.0"  />
+  <project name="resurrectionremix-hero/hardware_samsung" path="hardware/samsung" remote="github" revision="pie"  />
+  <!--project name="eazyfire1/pvshc" path="vendor/samsung/hero-common" remote="github" revision="master"  />-->
+  <project name="eazyfire1/pvs" path="vendor/seal/seal" remote="github" revision="master"  />
+  <project name="LineageOS/android_packages_resources_devicesettings" path="packages/resources/devicesettings" remote="github" revision=""  />
+  <!--project name="resurrectionremix-hero/Resurrection_packages_apps_Settings" path="" remote="github" revision="pie"  />-->
+  <project name="resurrectionremix-hero/vendor_samsung_hero-common" path="vendor/samsung/hero-common" remote="github" revision=""  />
+</manifest>
