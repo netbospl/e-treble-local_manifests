@@ -15,5 +15,8 @@
   <project path="prebuilts/gcc/linux-x86/arm/arm-eabi-7.2" name="e/devices/samsung/android-prebuilts-gcc-linux-x86-arm-arm-eabi-7.2" remote="e" revision="master"/>
   <project path="device/samsung/j5-common" name="e/devices/samsung/android_device_samsung_j5-common" remote="e"/>
   <project path="device/samsung/j5lte" name="e/devices/samsung/android_device_samsung_j5lte" remote="e"/>
+  <remove-project name="LineageOS/android_frameworks_av"/>
+  <project path="frameworks/av" name="rhunault/android_frameworks_av" remote="e-priv" revision="fix-build-for-j5" />
+
 
 </manifest>
