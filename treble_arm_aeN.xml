@@ -1,1 +1,13 @@
-gsi.xml
+<?xml version="1.0" encoding="UTF-8"?>
+<manifest>
+<remote name="phh" fetch="https://github.com/phhusson/" />
+<remote name="phief" fetch="https://github.com/phief/" />
+<remote name="AndyCGYan" fetch="https://github.com/AndyCGYan/" />
+<project path="vendor/hardware_overlay" name="vendor_hardware_overlay" remote="phh" revision="pie" />
+<project path="device/phh/treble" name="device_phh_treble" remote="phief" revision="e-pie" />
+<project path="vendor/vndk" name="vendor_vndk" remote="phh" revision="master" />
+<project path="vendor/vndk-tests" name="vendor_vndk-tests" remote="phh" revision="master" />
+<project path="vendor/interfaces" name="vendor_interfaces" remote="phh" revision="pie" />
+<project path="treble_patches" name="treble_patches" remote="AndyCGYan" revision="lineage-16.0" />
+<project path="treble_build_los" name="treble_build_los" remote="phief" revision="e-pie"/>
+</manifest>
