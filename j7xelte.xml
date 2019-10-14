@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<manifest>
+    <!-- Remote for unofficial j7xelte lineage -->
+    <remote name="j7xelte"
+            fetch="https://github.com/j7xelte" 
+            revision="lineage-15.1" />
+
+    <project name="android_device_samsung_j7xelte" path="device/samsung/j7xelte" remote="j7xelte" />
+    <project name="android_device_samsung_exynos7870-common" path="device/samsung/exynos7870-common" remote="j7xelte" />
+    <project name="android_packages_resources_devicesettings" path="packages/resources/devicesettings" remote="j7xelte" />
+    <project name="android_hardware_samsung" path="hardware/samsung" remote="j7xelte" />
+    <project name="android_kernel_samsung_exynos7870" path="kernel/samsung/exynos7870" remote="j7xelte" />
+    <project name="android_vendor_samsung_j7xelte" path="vendor/samsung/j7xelte" remote="j7xelte" />
+    <project name="android_packages_apps_SamsungServiceMode" path="packages/apps/SamsungServiceMode" remote="j7xelte" />
+    <project name="android_hardware_samsung_slsi-cm_exynos" path="hardware/samsung/slsi-cm_exynos" remote="j7xelte" />
+    <project name="android_hardware_samsung_slsi-cm_exynos5" path="hardware/samsung_slsi-cm/exynos5" remote="j7xelte" />
+    <project name="android_hardware_samsung_slsi-cm_openmax" path="hardware/samsung_slsi-cm/openmax" remote="j7xelte" />
+</manifest>
