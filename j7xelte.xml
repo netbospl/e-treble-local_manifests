@@ -12,7 +12,7 @@
     <project name="android_kernel_samsung_j7xelte" path="kernel/samsung/j7xelte" remote="j7xelte" />
     <project name="android_vendor_samsung_j7xelte" path="vendor/samsung/j7xelte" remote="j7xelte" />
     <project name="LineageOS/android_packages_apps_SamsungServiceMode" path="packages/apps/SamsungServiceMode" remote="github" revision="cm-14.1"/>
-    <project name="LineageOS/android_hardware_samsung_slsi-cm_exynos" path="hardware/samsung/slsi-cm_exynos" remote="github" revision="lineage-15.1" />
+    <project name="LineageOS/android_hardware_samsung_slsi-cm_exynos" path="hardware/samsung_slsi-cm/exynos" remote="github" revision="lineage-15.1" />
     <project name="LineageOS/android_hardware_samsung_slsi-cm_exynos5" path="hardware/samsung_slsi-cm/exynos5" remote="github" revision="lineage-15.1" />
     <project name="android_hardware_samsung_slsi-cm_openmax" path="hardware/samsung_slsi-cm/openmax" remote="j7xelte" />
     <project name="Exynos7870/android_hardware_samsung_slsi-cm_exynos7870" path="hardware/samsung_slsi-cm/exynos7870" remote="github" revision="lineage-15.1" />
