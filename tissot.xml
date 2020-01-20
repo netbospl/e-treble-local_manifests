@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<manifest>
+  <remove-project name="e/os/android_frameworks_base" />
+  <remove-project name="LineageOS/android_frameworks_native" />
+  <project path="frameworks/base" name="e/os/android_frameworks_base" remote="e" revision="ca21c0c4239a12c1556e899949e334661f2e1be0" groups="pdk" />
+  <project path="frameworks/native" name="LineageOS/android_frameworks_native" remote="github" revision="4fb3e5d7ec2b3a068bd5ac81e1b43b776cc4559e" groups="pdk" />
+</manifest>
