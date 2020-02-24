@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no" ?>
 <manifest>
 	<project path="kernel/xiaomi/msm8953" name="e/devices/xiaomi/markw/android_kernel_xiaomi_msm8953" remote="e" />
-<!--	<project path="vendor/xiaomi/" name="e/devices/xiaomi/markw/android_vendor_xiaomi" remote="e" /> -->
+	<project path="vendor/xiaomi/" name="e/devices/xiaomi/markw/android_vendor_xiaomi" remote="e" />
 	<project path="device/xiaomi/markw" name="e/devices/xiaomi/markw/android_device_xiaomi_markw" remote="e" />
 </manifest>
