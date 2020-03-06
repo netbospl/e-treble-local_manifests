@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<manifest>
+  <remote name="ayufan" fetch="https://github.com/ayufan-pine64" />
+  <remote name="phief" fetch="https://github.com/PhieF" />
+ <remote name="omnirom" fetch="https://github.com/omnirom" />
+<!-- <remote name="e" fetch="https://gitlab.e.foundation" /> -->
+ <remove-project name="LineageOS/android_bootable_recovery" />
+ <!-- <remove-project name="e/os/android_build" />-->
+  <remove-project name="platform/external/minijail" />
+  <remove-project name="LineageOS/android_frameworks_av" />
+  <remove-project name="e/os/android_frameworks_base" />
+  <remove-project name="LineageOS/android_frameworks_native" />
+  <remove-project name="platform/frameworks/wilhelm" />
+  <remove-project name="LineageOS/android_hardware_libhardware" />
+  <remove-project name="platform/packages/apps/Provision" />
+  <remove-project name="LineageOS/android_system_bt" />
+  <remove-project name="LineageOS/android_packages_apps_Bluetooth" />
+
+  <remove-project name="LineageOS/android_system_core" />
+  <remove-project name="LineageOS/android_system_netd" />
+
+  <!-- Device support -->
+  <project path="device/softwinner" name="a64/device-softwinner" remote="e" revision="nougat-v1" groups="pdk" />
+  <project path="hardware/aw" name="a64/hardware-aw" remote="e" revision="nougat" groups="pdk" />
+  <project path="hardware/realtek" name="hardware-realtek" remote="ayufan" revision="nougat" groups="pdk" />
+  <project path="vendor/ayufan-pine64/pine64-common" name="a64/device-pine64-common" remote="e" revision="master" groups="pdk" />
+  <project path="vendor/ayufan-pine64/boot-tools" name="a64/boot-tools" remote="e" revision="e" groups="pdk" />
+  <project path="vendor/e" name="a64/android_vendor_e" remote="e" revision="master" groups="pdk" />
+
+  <!-- TWRP recovery -->
+  <project path="external/busybox" name="android_external_busybox" remote="ayufan" revision="nougat" groups="pdk" />
+  <project path="bootable/recovery" name="android_bootable_recovery" remote="omnirom" revision="android-7.1" groups="pdk"/>
+  <!-- Required system fixes -->
+
+  <project path="external/minijail" name="external-minijail" remote="ayufan" revision="nougat-7.1" groups="pdk" />
+  <project path="frameworks/av" name="a64/android_frameworks_av" remote="e" revision="pinebook-7.1" groups="pdk" />
+  <project path="frameworks/base" name="a64/android_frameworks_base" remote="e" revision="a64" groups="pdk" />
+  <project path="frameworks/native" name="a64/android_frameworks_native" remote="e" revision="pinebook-7.1" groups="pdk" />
+  <project path="frameworks/wilhelm" name="frameworks-wilhelm" remote="ayufan" revision="nougat-7.1" groups="pdk" />
+  <project path="hardware/libhardware" name="a64/android_hardware_libhardware" remote="e" revision="compat-ayufan" groups="pdk" />
+  <project path="packages/apps/Provision" name="packages-apps-Provision" remote="ayufan" revision="nougat-7.1" groups="pdk" />
+  <project path="system/bt" name="a64/android_system_bt" remote="e" revision="compatbt" groups="pdk" />
+  <project path="packages/apps/Bluetooth" name="a64/android_packages_apps_Bluetooth" remote="e" revision="compatbluetooth" groups="pdk" />
+
+  <project path="system/core" name="a64/android_system_core" remote="e" revision="v1-nougat-a64" />
+  <project path="system/netd" name="system-netd" remote="ayufan" revision="nougat-7.1" groups="pdk" />
+  <!-- Longsleep kernel for Pine A64 -->
+  <project path="linux/kernel-tulip" name="a64/linux-pine64" clone-depth="1" remote="e" revision="teres" groups="pdk" />
+
+  <!-- Ethernet -->
+  <project path="external/ethtool" name="android_external_ethtool" remote="ayufan" revision="s805_4.4.2_master" groups="pdk" />
+</manifest>
