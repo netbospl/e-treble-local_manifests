@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<manifest>
+  <project name="e/devices/android_device_samsung_dreamlte" path="device/samsung/dreamlte" remote="e" revision="v1-pie"/>
+  <project name="e/devices/android_device_samsung_universal8895-common" path="device/samsung/universal8895-common" remote="e" revision="v1-pie"/>
+  <project name="e/devices/android_kernel_samsung_universal8895" path="kernel/samsung/universal8895" remote="e" revision="v1-pie"/>
+  <project name="e/devices/android_vendor_samsung_dreamlte" path="vendor/samsung/dreamlte" remote="e" revision="v1-pie"/>
+  <project name="e/devices/android_vendor_samsung_universal8895-common" path="vendor/samsung/universal8895-common" remote="e" revision="v1-pie"/>
+  <project name="LineageOS/android_hardware_samsung" path="hardware/samsung" remote="github" revision="lineage-16.0"/>
+  <project name="LineageOS/android_packages_resources_devicesettings" path="packages/resources/devicesettings" remote="github" revision="lineage-16.0"/>
+</manifest>
