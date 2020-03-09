@@ -5,6 +5,5 @@
 	<!--KERNEL-->
 	<project path="kernel/xiaomi/markw" name="e/devices/xiaomi/markw/android_kernel_xiaomi_msm8953" remote="e"/>
 	<!--BLOBS-->
-	<project path="vendor/xiaomi/markw" name="e/devices/xiaomi/markw/android_vendor_xiaomi" remote="e"/>
-	<project path="vendor/xiaomi" name="e/devices/xiaomi/proprietary_vendor_xiaomi" remote="e"/>
+	<project path="vendor/xiaomi" name="e/devices/xiaomi/markw/android_vendor_xiaomi" remote="e"/>
 </manifest>
