@@ -1,6 +1,10 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no" ?>
 <manifest>
+	<!--DEVICE-->
+	<project path="device/xiaomi/markw" name="e/devices/xiaomi/markw/android_device_xiaomi_markw" remote="e" />	
+	<!--KERNEL-->
 	<project path="kernel/xiaomi/markw" name="e/devices/xiaomi/markw/android_kernel_xiaomi_msm8953" remote="e" />
+	<!--BLOBS-->
 	<project path="vendor/xiaomi/markw" name="e/devices/xiaomi/markw/android_vendor_xiaomi" remote="e" />
-	<project path="device/xiaomi/markw" name="e/devices/xiaomi/markw/android_device_xiaomi_markw" remote="e" />
+	<project path="vendor/xiaomi/msm8953-common" name="e/devices/xiaomi/proprietary_vendor_xiaomi/msm8953-common" remote="lineage-15.1" />
 </manifest>
