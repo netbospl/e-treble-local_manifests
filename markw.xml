@@ -6,4 +6,5 @@
 	<project path="kernel/xiaomi/markw" name="e/devices/xiaomi/markw/android_kernel_xiaomi_msm8953" remote="e"/>
 	<!--BLOBS-->
 	<project path="vendor/xiaomi" name="e/devices/xiaomi/markw/android_vendor_xiaomi" remote="e"/>
+	<project path="packages/resources/devicesettings" name="LineageOS/android_packages_resources_devicesettings" remote="github" revision="lineage-16.0"/>
 </manifest>
