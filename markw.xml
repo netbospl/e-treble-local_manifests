@@ -1,10 +1,8 @@
-<?xml version="1.0" encoding="UTF-8" standalone="no" ?>
+<?xml version="1.0" encoding="UTF-8"?>
 <manifest>
-	<!--DEVICE-->
-	<project path="device/xiaomi/markw" name="e/devices/xiaomi/markw/android_device_xiaomi_markw" remote="e"/>	
-	<!--KERNEL-->
-	<project path="kernel/xiaomi/markw" name="e/devices/xiaomi/markw/android_kernel_xiaomi_msm8953" remote="e"/>
-	<!--BLOBS-->
-	<project path="vendor/xiaomi" name="e/devices/xiaomi/markw/android_vendor_xiaomi" remote="e"/>
-	<project path="packages/resources/devicesettings" name="LineageOS/android_packages_resources_devicesettings" remote="github" revision="lineage-16.0"/>
+    <project name="e/devices/xiaomi/markw/android_device_xiaomi_markw" path="device/xiaomi/markw" remote="e"/>	
+    <project name="e/devices/xiaomi/markw/android_kernel_xiaomi_msm8953" path="kernel/xiaomi/markw" remote="e"/>
+    <project name="e/devices/xiaomi/markw/android_vendor_xiaomi" path="vendor/xiaomi" remote="e"/>
+    <project name="LineageOS/android_packages_resources_devicesettings" path="packages/resources/devicesettings" remote="github" revision="lineage-16.0" />
 </manifest>
+
