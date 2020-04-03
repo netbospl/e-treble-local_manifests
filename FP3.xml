@@ -1,8 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <manifest>
-  <project name="fp3/android_kernel_fairphone_fp3" path="kernel/fairphone/sdm632" remote="e" revision="v1-pie"/>
-  <project name="fp3/android_device_fairphone_fp3" path="device/fairphone/FP3" remote="e" revision="v1-pie"/>
-  <project name="fp3/android_vendor_fairphone_fp3" path="vendor/fairphone/FP3" remote="e" revision="v1-pie"/>
+  <project name="fp3/android_kernel_fairphone_fp3" path="kernel/fairphone/sdm632" remote="e-priv" revision="v1-pie"/>
+  <project name="fp3/android_device_fairphone_fp3" path="device/fairphone/FP3" remote="e-priv" revision="v1-pie"/>
+  <project name="fp3/android_vendor_fairphone_fp3" path="vendor/fairphone/FP3" remote="e-priv" revision="v1-pie"/>
   <remove-project name="LineageOS/android_hardware_qcom_audio"/>
-  <project name="fp3/android_hardware_qcom_audio-caf" path="hardware/qcom/audio-caf/msm8996" remote="github" revision="lineage-16.0-caf-8996"/>
+  <project name="fp3/android_hardware_qcom_audio-caf" path="hardware/qcom/audio-caf/msm8996" remote="e-priv" revision="lineage-16.0-caf-8996"/>
 </manifest>
