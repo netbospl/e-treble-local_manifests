@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<manifest>
+    <project name="e/devices/xiaomi/markw/android_device_xiaomi_markw" path="device/xiaomi/markw" remote="e" revision="v1-pie"/>	
+    <project name="e/devices/xiaomi/markw/android_kernel_xiaomi_msm8953" path="kernel/xiaomi/markw" remote="e" revision="v1-pie"/>
+    <project name="e/devices/xiaomi/markw/android_vendor_xiaomi" path="vendor/xiaomi" remote="e" revision="v1-pie"/>
+    <project name="LineageOS/android_packages_resources_devicesettings" path="packages/resources/devicesettings" remote="github" revision="lineage-16.0" />
+</manifest>
