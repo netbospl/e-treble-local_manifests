@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<manifest>
+  <project name="e/devices/android_device_samsung_dream2lte" path="device/samsung/dream2lte" remote="e" />
+  <project name="e/devices/android_device_samsung_universal8895-common" path="device/samsung/universal8895-common" remote="e" />
+  <project name="e/devices/android_kernel_samsung_universal8895" path="kernel/samsung/universal8895" remote="e" />
+  <project name="LineageOS/android_hardware_samsung" path="hardware/samsung" remote="github" />
+  <project name="LineageOS/android_packages_resources_devicesettings" path="packages/resources/devicesettings" remote="github" />
+</manifest>
