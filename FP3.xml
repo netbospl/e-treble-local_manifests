@@ -5,5 +5,5 @@
   <project name="e/devices/android_vendor_fairphone_FP3" path="vendor/fairphone/FP3" remote="e-priv" />
   <project name="LineageOS/android_packages_resources_devicesettings" path="packages/resources/devicesettings" remote="github" revision="lineage-16.0"/>
   <remove-project name="LineageOS/android_hardware_qcom_audio"/>
-  <project name="e/devices/android_hardware_qcom_audio-caf" path="hardware/qcom/audio-caf/msm8996" remote="e-priv" revision="lineage-16.0-caf-8996"/>
+  <project name="e/devices/android_hardware_qcom_audio-caf" path="hardware/qcom/audio-caf/msm8996" remote="e-priv" revision="v1-pie"/>
 </manifest>
