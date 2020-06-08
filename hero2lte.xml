@@ -5,7 +5,7 @@
   <project name="e/devices/android_device_samsung_herolte" path="device/samsung/herolte" remote="e" revision="v1-oreo"/>
   <project name="e/devices/android_device_samsung_hero-common" path="device/samsung/hero-common" remote="e" revision="v1-oreo"/>
   <!--Hardware-->
-  <project name="AlexandreRouxDanzi/android_hardware_samsung" path="hardware/samsung" remote="e" revision="lineage-15.1"/>
+  <project name="e/devices/android_hardware_samsung" path="hardware/samsung" remote="e" />
   <!--Kernel-->
   <project name="AlexandreRouxDanzi/android_kernel_samsung_herolte" path="kernel/samsung/universal8890" remote="e" revision="lineage-15.1"/>
   <!--Blobs-->
