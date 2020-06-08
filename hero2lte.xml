@@ -8,7 +8,4 @@
   <project name="e/devices/android_hardware_samsung" path="hardware/samsung" remote="e" />
   <!--Kernel-->
   <project name="e/devices/android_kernel_samsung_herolte" path="kernel/samsung/universal8890" remote="e" />
-  <!--Blobs-->
-  <project name="AlexandreRouxDanzi/proprietary_vendor_seal" path="vendor/seal/seal" remote="e" revision="master"/>
-  <project name="AlexandreRouxDanzi/proprietary_vendor_samsung_hero-common" path="vendor/samsung/hero-common" remote="e" revision="lineage-15.1" />
 </manifest>
