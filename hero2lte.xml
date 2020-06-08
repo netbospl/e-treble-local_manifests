@@ -2,7 +2,6 @@
 <manifest>
   <!--Device tree-->
   <project name="e/devices/android_device_samsung_hero2lte" path="device/samsung/hero2lte" remote="e" revision="v1-oreo"/>
-  <project name="e/devices/android_device_samsung_herolte" path="device/samsung/herolte" remote="e" revision="v1-oreo"/>
   <project name="e/devices/android_device_samsung_hero-common" path="device/samsung/hero-common" remote="e" revision="v1-oreo"/>
   <!--Hardware-->
   <project name="e/devices/android_hardware_samsung" path="hardware/samsung" remote="e" />
