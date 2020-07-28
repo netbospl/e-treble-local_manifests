@@ -2,10 +2,11 @@
 <manifest>
   <remote name="ayufan" fetch="https://github.com/ayufan-pine64" />
   <remote name="phief" fetch="https://github.com/PhieF" />
- <remote name="omnirom" fetch="https://github.com/omnirom" />
-<!-- <remote name="e" fetch="https://gitlab.e.foundation" /> -->
- <remove-project name="LineageOS/android_bootable_recovery" />
- <!-- <remove-project name="e/os/android_build" />-->
+  <remote name="omnirom" fetch="https://github.com/omnirom" />
+  <!-- <remote name="e" fetch="https://gitlab.e.foundation" /> -->
+  
+  <remove-project name="e/os/android_bootable_recovery" />
+  <!-- <remove-project name="e/os/android_build" />-->
   <remove-project name="platform/external/minijail" />
   <remove-project name="LineageOS/android_frameworks_av" />
   <remove-project name="e/os/android_frameworks_base" />
