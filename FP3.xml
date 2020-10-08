@@ -1,7 +1,0 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<manifest>
-  <project name="e/devices/android_kernel_fairphone_FP3" path="kernel/fairphone/sdm632" remote="e" />
-  <project name="e/devices/android_device_fairphone_FP3" path="device/fairphone/FP3" remote="e" />
-  <project name="e/devices/android_vendor_fairphone_FP3" path="vendor/fairphone/FP3" remote="e-priv" />
-  <project name="LineageOS/android_packages_resources_devicesettings" path="packages/resources/devicesettings" remote="github" revision="lineage-16.0"/>
-</manifest>
