@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <manifest>
 <!-- please don't forget to integrate gsi manifest  -->
-  <project name="AlexandreRouxDanzi/device_gigaset_gs290" path="device/gigaset/gs290" remote="e" />
+  <project name="AlexandreRouxDanzi/device_gigaset_gs290" path="device/gigaset/GS290" remote="e" />
 </manifest>
