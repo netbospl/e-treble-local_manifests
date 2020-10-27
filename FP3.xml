@@ -3,4 +3,6 @@
   <project name="e/devices/FP3/android_kernel_fairphone_fp3" path="kernel/fairphone/sdm632" remote="e-priv" revision="v1-q" />
   <project name="e/devices/FP3/android_device_fairphone_fp3" path="device/fairphone/FP3" remote="e-priv" revision="test" />
   <project name="e/devices/FP3/android_vendor_fairphone_fp3" path="vendor/fairphone/FP3" remote="e-priv" revision="v1-q" />
+  <remove-project name="e/os/android_hardware_qcom_audio"/>
+  <project name="e/devices/FP3/android_hardware_audio" path="hardware/qcom-caf/msm8996/audio" remote="e-priv" revision="lineage-17.1-caf-msm8996"/>
 </manifest>
