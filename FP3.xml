@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <manifest>
   <project name="e/devices/FP3/android_kernel_fairphone_fp3" path="kernel/fairphone/sdm632" remote="e-priv"/>
-  <project name="e/devices/FP3/android_device_fairphone_fp3" path="device/fairphone/FP3" remote="e-priv" revision="fix-geoloc" />
+  <project name="e/devices/FP3/android_device_fairphone_fp3" path="device/fairphone/FP3" remote="e-priv" revision="v1-q-vendors" />
   <project name="e/devices/FP3/android_vendor_fairphone_fp3" path="vendor/fairphone/FP3" remote="e-priv" />
 </manifest>
