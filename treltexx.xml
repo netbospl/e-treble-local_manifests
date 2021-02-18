@@ -1,12 +1,12 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <manifest>
 
-  <project name="e/devices/android_device_samsung_treltexx" path="device/samsung/treltexx" remote="e" />
-  <project name="e/devices/android_device_samsung_trelte-common" path="device/samsung/trelte-common" remote="e"/>
-  <project name="e/devices/android_hardware_samsung_slsi-cm_exynos" path="hardware/samsung_slsi-cm/exynos" remote="e"/>
-  <project name="e/devices/android_hardware_samsung_slsi-cm_exynos5433" path="hardware/samsung_slsi-cm/exynos5433" remote="e"/>
-  <project name="e/devices/android_kernel_samsung_exynos5433" path="kernel/samsung/exynos5433" remote="e"/>
-  <project name="e/devices/android_hardware_samsung_slsi-cm_openmax" path="hardware/samsung_slsi-cm/openmax" remote="e"/>
+  <project name="e/devices/android_device_samsung_treltexx" path="device/samsung/treltexx" remote="e" revision="cm-14.1" />
+  <project name="e/devices/android_device_samsung_trelte-common" path="device/samsung/trelte-common" remote="e" revision="cm-14.1" />
+  <project name="e/devices/android_hardware_samsung_slsi-cm_exynos" path="hardware/samsung_slsi-cm/exynos" remote="e" revision="cm-14.1" />
+  <project name="e/devices/android_hardware_samsung_slsi-cm_exynos5433" path="hardware/samsung_slsi-cm/exynos5433" remote="e" revision="cm-14.1" />
+  <project name="e/devices/android_kernel_samsung_exynos5433" path="kernel/samsung/exynos5433" remote="e" revision="cm-14.1" />
+  <project name="e/devices/android_hardware_samsung_slsi-cm_openmax" path="hardware/samsung_slsi-cm/openmax" remote="e" revision="cm-14.1" />
 
   <!-- LineageOS Repos -->
   <project name="LineageOS/android_hardware_samsung" path="hardware/samsung" />
