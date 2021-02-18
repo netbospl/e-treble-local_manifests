@@ -1,19 +1,20 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <manifest>
 
-  <project path="device/samsung/msm8916-common" name="e/devices/samsung/android_device_samsung_msm8916-common" remote="e" />
-  <project path="device/samsung/qcom-common" name="LineageOS/android_device_samsung_qcom-common" />
-  <project path="hardware/samsung" name="LineageOS/android_hardware_samsung" />
-  <project path="kernel/samsung/msm8916" name="e/devices/samsung/android_kernel_samsung_msm8916" remote="e"/>
-  <project path="vendor/samsung" name="e/devices/samsung/proprietary_vendor_samsung" remote="e" />
+  <project name="e/devices/samsung/android_device_samsung_j5lte" path="device/samsung/j5lte" remote="e" revision="lineage-15.1" />
+  <project name="e/devices/samsung/android_device_samsung_msm8916-common" path="device/samsung/msm8916-common" remote="e" revision="lineage-15.1" />
+  <project name="e/devices/samsung/android_kernel_samsung_msm8916" path="kernel/samsung/msm8916" remote="e" revision="lineage-15.1" />
+  <project name="e/devices/samsung/proprietary_vendor_samsung" path="vendor/samsung" remote="e" revision="lineage-15.1" />
+  <project name="e/devices/samsung/android_hardware_qcom_audio" path="hardware/qcom/audio-caf/msm8916" groups="qcom,qcom_audio,pdk" remote="e" />
+  <project name="e/devices/samsung/android_external_busybox" path="external/busybox" remote="e" revision="android-8.1" />
+  <project name="e/devices/samsung/android-prebuilts-gcc-linux-x86-arm-arm-eabi-7.2" path="prebuilts/gcc/linux-x86/arm/arm-eabi-7.2" remote="e" revision="master" />
+  <project name="e/devices/samsung/android_device_samsung_j5-common" path="device/samsung/j5-common" remote="e" revision="lineage-15.1" />
+
+  <project name="LineageOS/android_device_samsung_qcom-common" path="device/samsung/qcom-common" />
+  <project name="LineageOS/android_hardware_samsung" path="hardware/samsung" />
   <remove-project name="e/os/android_hardware_qcom_audio"/>
-  <project path="hardware/qcom/audio-caf/msm8916" name="e/devices/samsung/android_hardware_qcom_audio" groups="qcom,qcom_audio,pdk" remote="e" />
-  <project path="device/qcom/common" name="LineageOS/android_device_qcom_common"/>
-  <project path="external/busybox" name="e/devices/samsung/android_external_busybox" remote="e" />
-  <project path="external/sony/boringssl-compat" name="LineageOS/android_external_sony_boringssl-compat" />
-  <project path="packages/resources/devicesettings" name="LineageOS/android_packages_resources_devicesettings"/>
-  <project path="prebuilts/gcc/linux-x86/arm/arm-eabi-7.2" name="e/devices/samsung/android-prebuilts-gcc-linux-x86-arm-arm-eabi-7.2" remote="e" revision="master"/>
-  <project path="device/samsung/j5-common" name="e/devices/samsung/android_device_samsung_j5-common" remote="e"/>
-  <project path="device/samsung/j5lte" name="e/devices/samsung/android_device_samsung_j5lte" remote="e"/>
+  <project name="LineageOS/android_device_qcom_common" path="device/qcom/common" />
+  <project name="LineageOS/android_external_sony_boringssl-compat" path="external/sony/boringssl-compat" />
+  <project name="LineageOS/android_packages_resources_devicesettings" path="packages/resources/devicesettings" />
 
 </manifest>
