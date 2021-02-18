@@ -1,17 +1,19 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <manifest>
-  <project name="e/devices/samsung/a3xeltexx/android_device_samsung_a3xeltexx" path="device/samsung/a3xeltexx" remote="e" />
-  <project name="e/devices/samsung/a3xeltexx/android_vendor_samsung_a3xeltexx" path="vendor/samsung/a3xeltexx" remote="e" />
+  <project name="e/devices/android_device_samsung_a3xeltexx" path="device/samsung/a3xeltexx" remote="e" revision="lineage-15.1" />
+  <project name="e/devices/android_vendor_samsung_a3xeltexx" path="vendor/samsung/a3xeltexx" remote="e" revision="lineage-15.1" />
 
-  <project name="e/devices/samsung/android_device_samsung_exynos7580-common" path="device/samsung/exynos7580-common" remote="e"  />
-  <project name="e/devices/samsung/android_kernel_samsung_exynos7580-common" path="kernel/samsung/exynos7580-common" remote="e"  />
-  <project name="e/devices/samsung/android_vendor_samsung_exynos7580-common" path="vendor/samsung/exynos7580-common" remote="e"  />
+  <project name="e/devices/samsung/android_device_samsung_exynos7580-common" path="device/samsung/exynos7580-common" remote="e" revision="lineage-15.1" />
+  <project name="e/devices/samsung/android_kernel_samsung_exynos7580-common" path="kernel/samsung/exynos7580-common" remote="e" revision="lineage-15.1" />
+  <project name="e/devices/samsung/android_vendor_samsung_exynos7580-common" path="vendor/samsung/exynos7580-common" remote="e" revision="lineage-15.1" />
   <project name="e/devices/samsung/android_hardware_samsung_slsi-cm_exynos7580" path="hardware/samsung_slsi-cm/exynos7580" remote="e"  />
-  <project name="e/devices/samsung/android_external_protobuf-compat-2.6" path="external/protobuf-compat-2.6" remote="e"  />
+  <project name="e/devices/samsung/android_external_protobuf-compat-2.6" path="external/protobuf-compat-2.6" remote="e" revision="lineage-15.1" />
+  <project name="e/devices/samsung/android_hardware_samsung_slsi-cm_exynos" path="hardware/samsung_slsi-cm/exynos" remote="e" revision="nx-8.1" />
+  <project name="e/devices/samsung/android_hardware_samsung_slsi-cm_exynos5" path="hardware/samsung_slsi-cm/exynos5" remote="e" revision="nx-8.1" />
+  <project name="e/devices/samsung/android_hardware_samsung_slsi-cm_openmax" path="hardware/samsung_slsi-cm/openmax" remote="e" revision="nx-8.1" />
+  <project name="e/devices/samsung/android_hardware_samsung" path="hardware/samsung" remote="e" revision="lineage-15.1" />
+
+
   <project name="LineageOS/android_packages_resources_devicesettings" path="packages/resources/devicesettings" remote="github"  />
   <project name="LineageOS/android_packages_apps_FlipFlap" path="packages/apps/FlipFlap" remote="github"  />
-  <project name="e/devices/samsung/android_hardware_samsung_slsi-cm_exynos" path="hardware/samsung_slsi-cm/exynos" remote="e"  />
-  <project name="e/devices/samsung/android_hardware_samsung_slsi-cm_exynos5" path="hardware/samsung_slsi-cm/exynos5" remote="e"  />
-  <project name="e/devices/samsung/android_hardware_samsung_slsi-cm_openmax" path="hardware/samsung_slsi-cm/openmax" remote="e"  />
-  <project name="e/devices/samsung/android_hardware_samsung" path="hardware/samsung" remote="e"  />
 </manifest>
