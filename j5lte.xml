@@ -5,7 +5,7 @@
   <project name="e/devices/samsung/android_device_samsung_msm8916-common" path="device/samsung/msm8916-common" remote="e" revision="lineage-15.1" />
   <project name="e/devices/samsung/android_kernel_samsung_msm8916" path="kernel/samsung/msm8916" remote="e" revision="lineage-15.1" />
   <project name="e/devices/samsung/proprietary_vendor_samsung" path="vendor/samsung" remote="e" revision="lineage-15.1" />
-  <project name="e/devices/samsung/android_hardware_qcom_audio" path="hardware/qcom/audio-caf/msm8916" groups="qcom,qcom_audio,pdk" remote="e" />
+  <project name="e/devices/samsung/android_hardware_qcom_audio" path="hardware/qcom/audio-caf/msm8916" groups="qcom,qcom_audio,pdk" remote="e" revision="v1-oreo-caf-8916" />
   <project name="e/devices/samsung/android_external_busybox" path="external/busybox" remote="e" revision="android-8.1" />
   <project name="e/devices/samsung/android-prebuilts-gcc-linux-x86-arm-arm-eabi-7.2" path="prebuilts/gcc/linux-x86/arm/arm-eabi-7.2" remote="e" revision="master" />
   <project name="e/devices/samsung/android_device_samsung_j5-common" path="device/samsung/j5-common" remote="e" revision="lineage-15.1" />
