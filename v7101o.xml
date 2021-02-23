@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<manifest>
+  <project name="e/devices/android_device_teracube_v7101o" path="device/teracube/v7101o" remote="e" revision="lineage-17.1" />
+</manifest>
