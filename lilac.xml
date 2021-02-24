@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<manifest>
+<!-- SONY Xperia XZ1 Compact (lilac)-->
+
+  <!-- kernel and device files --> 
+  <project name="e/devices/android_device_sony_lilac" path="device/sony/lilac" remote="e" />
+  <project name="e/devices/android_kernel_sony_msm8998" path="kernel/sony/msm8998" remote="e"  />
+  <project name="e/devices/android_device_sony_yoshino-common" path="device/sony/yoshino-common" remote="e" />
+
+</manifest>
