@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<manifest>
+<!-- SONY Xperia Z3 Compact (z3c)-->
+
+
+<!-- Do we need this one
+  <project name="LineageOS/android_hardware_sony_timekeep" path="hardware/sony/timekeep" remote="github" /> -->
+
+
+  <!-- Z3 Compact device tree -->
+  <project name ="LineageOS/android_device_sony_z3c" path="device/sony/z3c remote="github" />
+
+  <!-- Sony Shinano common device tree -->
+  <project name="LineageOS/android_device_sony_shinano-common" path="device/sony/shinano-common" remote="github"  />
+
+  <!-- Sony MSM8974 common device tree -->
+  <project name="LineageOS/msm8974-common" path="device/sony/msm8974-common" remote="github"  />
+
+  <!-- Sony MSM8974 kernel -->
+  <project name="LineageOS/android_kernel_sony_msm8974" path="kernel/sony/msm8974" remote="github" />
+
+  <!-- Needed libraries -->
+  <project name="LineageOS/android_hardware_broadcom_fm" path="hardware/broadcom/fm" remote="github"  />
+
+</manifest>
