@@ -8,7 +8,7 @@
 
 
   <!-- Z3 Compact device tree -->
-  <project name ="LineageOS/android_device_sony_z3c" path="device/sony/z3c remote="github" />
+  <project name ="LineageOS/android_device_sony_z3c" path="device/sony/z3c" remote="github" />
 
   <!-- Sony Shinano common device tree -->
   <project name="LineageOS/android_device_sony_shinano-common" path="device/sony/shinano-common" remote="github"  />
