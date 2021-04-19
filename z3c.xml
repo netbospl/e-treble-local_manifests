@@ -14,7 +14,7 @@
   <project name="LineageOS/android_device_sony_shinano-common" path="device/sony/shinano-common" remote="github"  />
 
   <!-- Sony MSM8974 common device tree -->
-  <project name="LineageOS/msm8974-common" path="device/sony/msm8974-common" remote="github"  />
+  <project name="LineageOS/android_device_sony_msm8974-common" path="device/sony/msm8974-common" remote="github"  />
 
   <!-- Sony MSM8974 kernel -->
   <project name="LineageOS/android_kernel_sony_msm8974" path="kernel/sony/msm8974" remote="github" />
