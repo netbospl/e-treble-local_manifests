@@ -2,11 +2,6 @@
 <manifest>
 <!-- SONY Xperia Z3 Compact (z3c)-->
 
-
-<!-- Do we need this one
-  <project name="LineageOS/android_hardware_sony_timekeep" path="hardware/sony/timekeep" remote="github" /> -->
-
-
   <!-- Z3 Compact device tree -->
   <project name ="LineageOS/android_device_sony_z3c" path="device/sony/z3c" remote="github" />
 
