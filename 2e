@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<manifest>
+<!-- please don't forget to integrate gsi manifest  -->
+  <project name="AlexandreRouxDanzi/device_teracube_2e" path="device/teracube/2e" remote="e" />
+  <project name="AlexandreRouxDanzi/kernel_teracube_2e" path="kernel/teracube/2e" remote="e" />
+  <project name="AlexandreRouxDanzi/vendor_teracube_2e" path="vendor/teracube/2e" remote="e" />
+</manifest>
