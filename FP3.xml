@@ -1,7 +1,0 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<manifest>
-  <project name="e/devices/android_kernel_fairphone_fp3" path="kernel/fairphone/sdm632" remote="e"/>
-  <project name="e/devices/android_device_fairphone_fp3" path="device/fairphone/FP3" remote="e"/>
-  <remove-project name="e/os/android_frameworks_opt_telephony" remote="e"/>
-  <project name="e/os/android_frameworks_opt_telephony" path="frameworks/opt/telephony" remote="e" revision="v1-FP3-q"/>
-</manifest>
