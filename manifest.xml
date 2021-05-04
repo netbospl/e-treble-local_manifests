@@ -8,4 +8,5 @@
   <project name="e/devices/vendor_magisk" path="vendor/magisk" remote="e" revision="android-10.0" />
   <project name="e/devices/android_treble_build_los" path="treble_build_los" remote="e" />
   <project name="e/devices/treble_patches" path="treble_patches" remote="e" revision="lineage-17.1" />
+  <project name="netbospl/unofficial_treble_build_los" path="unofficial_treble_build_los" remote="github" revision="v1-q-unofficial" />
 </manifest>
